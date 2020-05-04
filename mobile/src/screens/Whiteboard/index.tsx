@@ -2,14 +2,19 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import {
+    Grid,
     Typography,
 } from '../../components';
 
 const Whiteboard: React.FC = () => {
     return(
-        <View>
-            <Typography text='Whiteboard' fontSize='medium' color='primary' />
-        </View>
+        <Grid
+            flex={1}
+            justifyContent='center'
+            alignItems='center'
+        >
+            <Typography text='Whiteboard' fontSize='medium' color='secondary' />
+        </Grid>
     );  
 };
 

@@ -15,7 +15,7 @@ declare module 'styled-components' {
   }
 }
 
-export const codecafeTheme: DefaultTheme = {
+export const kangooparkTheme: DefaultTheme = {
   colors: {
     background: {
       primary: colors.lightGray,
