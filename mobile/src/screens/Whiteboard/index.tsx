@@ -1,5 +1,4 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 
 import {
     Grid,
@@ -13,7 +12,7 @@ const Whiteboard: React.FC = () => {
             justifyContent='center'
             alignItems='center'
         >
-            <Typography text='Whiteboard' fontSize='medium' color='secondary' />
+            <Typography text='Whiteboard' fontSize='large' color='secondary' />
         </Grid>
     );  
 };
