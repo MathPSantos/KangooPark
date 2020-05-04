@@ -11,13 +11,14 @@ import { AuthProvider } from './contexts/auth';
 
 const App: React.FC = () => {
     return (
-        <NavigationContainer>
-            <AuthProvider>
-                <ThemeProvider theme={kangooparkTheme}>
+        <ThemeProvider theme={kangooparkTheme}>
+            <NavigationContainer>
+                <AuthProvider>
+
                     <Routes />
-                </ThemeProvider>
-            </AuthProvider>
-        </NavigationContainer>
+                </AuthProvider>
+            </NavigationContainer>
+        </ThemeProvider>
     );
 };
 
