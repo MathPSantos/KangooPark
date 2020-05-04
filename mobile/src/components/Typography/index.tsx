@@ -6,7 +6,7 @@ import { BaseTitle } from './styles';
 
 /**
     ```
-      Example: <Typography onPress={onPress} text="Press" fontSize="medium" color="primary" />
+      Example: <Typography text="Press" fontSize="medium" color="primary" />
     ```
 */
 const Typography = ({
