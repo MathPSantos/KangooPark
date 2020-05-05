@@ -8,6 +8,12 @@ import { Props } from './interface';
 
 import { Container, Label } from './styles';
 
+/**
+    ```
+      Example: <ButtonBase text="Button Base" loading={false} onPress={() => {}} />
+    ```
+*/
+
 const ButtonBase = (props: Props) => {
   const { onPress, text, variant = 'base', loading } = props;
 
