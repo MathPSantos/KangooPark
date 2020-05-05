@@ -32,29 +32,34 @@ export const kangooparkTheme: DefaultTheme = {
       white: colors.white,
     },
     button: {
-      base: {
-        backgroundColor: colors.yellow,
+      def: {
+        backgroundColor: colors.black,
         textColor: colors.white,
       },
+      warn: {
+        backgroundColor: colors.red,
+        textColor: colors.white,
+      }
     },
   },
   units: {
     spacing: {
       none: units.spacing.none,
-      xxs: units.spacing.xxs,
-      extraSmall: units.spacing.extraSmall,
+      xxxSmall: units.spacing.xxxSmall,
+      xxSmall: units.spacing.xxSmall,
+      xSmall: units.spacing.xSmall,
       small: units.spacing.small,
       medium: units.spacing.medium,
       large: units.spacing.large,
-      xlarge: units.spacing.xlarge,
-      xxlarge: units.spacing.xxlarge,
-      xxxlarge: units.spacing.xxxlarge,
-      xxxxlarge: units.spacing.xxxxlarge,
-      extraLarge: units.spacing.extraLarge,
+      xLarge: units.spacing.xLarge,
+      xxLarge: units.spacing.xxLarge,
+      xxxLarge: units.spacing.xxxLarge,
+      xxxxLarge: units.spacing.xxxxLarge,
+      ultraLarge: units.spacing.ultraLarge,
     },
     borderRadius: {
-      xxs: units.borderRadius.xxs,
-      extraSmall: units.borderRadius.extraSmall,
+      xxSmall: units.borderRadius.xxSmall,
+      xSmall: units.borderRadius.xSmall,
       small: units.borderRadius.small,
       medium: units.borderRadius.medium,
     },

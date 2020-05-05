@@ -21,7 +21,7 @@ export default {
     },
     button: {
         font: 30,
-        height: 65,
+        height: 70,
     },
     input: {
         font: 25,

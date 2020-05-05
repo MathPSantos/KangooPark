@@ -32,7 +32,8 @@ export default {
   };
   
   export interface ColorsPropsButton {
-    base: ButtonColorsScheme;
+    def: ButtonColorsScheme;
+    warn: ButtonColorsScheme;
   }
   
   export interface ColorsProps {
