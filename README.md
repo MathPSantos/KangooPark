@@ -1,5 +1,12 @@
-# Kangoo Park
-Mobile app to see your bookings and book a new date and time to jump like a kangoroo at Kangoo Trampoline Park!
+<p align="center">
+  <img src=".github/KangoParkLogo 2.png" width='200px' />
+	
+  <p align="center">
+  Mobile app to see your bookings and book a new date and time to jump like a kangoroo at Kangoo Trampoline Park!
+  </p>
+  
+  <img src=".github/Cover.png" width='1000px' />
+</p>
 
 # Development
 > **yarn** is required
