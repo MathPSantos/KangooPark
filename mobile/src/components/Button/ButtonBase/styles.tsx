@@ -2,6 +2,20 @@ import styled from 'styled-components/native';
 
 import { StyledProps } from './interface';
 
+import { UnitPropsSpacing } from '../../../styles/theme/units';
+
+const DEFAULT_SPACING = 'none';
+
+const getSpacingUnity = (
+  spacing: UnitPropsSpacing,
+  property: keyof UnitPropsSpacing | 'auto' | undefined,
+): string => {
+  if (property === 'auto') {
+      return property;
+  }
+  return `${spacing[property || DEFAULT_SPACING]}px`;
+};
+
 export const Container = styled.TouchableOpacity<StyledProps>`
   width: 100%;
   height: ${({ theme }) => theme.units.button.height}px;

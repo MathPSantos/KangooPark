@@ -4,7 +4,7 @@ import { ActivityIndicator, GestureResponderEvent } from 'react-native';
 
 import colors from '../../../styles/theme/colors';
 
-import { ButtonProps } from './interface';
+import { ButtonProps, StyledProps } from './interface';
 
 import { Container, Label } from './styles';
 
@@ -24,7 +24,10 @@ const ButtonBase = (props: ButtonProps) => {
   };
 
   return (
-    <Container variant={variant} onPress={callOnPress}>
+    <Container 
+      variant={variant} 
+      onPress={callOnPress}
+    >
       {loading ? (
         <ActivityIndicator size='large' color={colors.white} />
       ) : (

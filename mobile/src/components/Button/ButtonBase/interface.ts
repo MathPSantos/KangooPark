@@ -13,10 +13,6 @@ export type ButtonProps = {
   testID?: string;
   onPress: (event: GestureResponderEvent) => void;
   variant?: ColorsButtonOptions;
-  paddingTop?: UnitsSpacingOptions;
-  paddingBottom?: UnitsSpacingOptions;
-  paddingLeft?: UnitsSpacingOptions;
-  paddingRight?: UnitsSpacingOptions;
 };
 
 export type StyledProps = {
