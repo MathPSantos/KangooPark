@@ -34,7 +34,12 @@ const Whiteboard: React.FC = () => {
                 backgroundColor='tertiary'
             >
                 <Typography text='KANGOO PARK' fontSize='xxxLarge' color='primary' />
-                <ButtonBase variant='warn' text='Test' loading={loading} onPress={handleButton} />
+                <ButtonBase 
+                    variant='warn' 
+                    text='Test' 
+                    loading={loading} 
+                    onPress={handleButton}
+                />
             </Grid>
         </Grid>
     );
