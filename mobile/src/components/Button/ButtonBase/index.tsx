@@ -4,7 +4,7 @@ import { ActivityIndicator, GestureResponderEvent } from 'react-native';
 
 import colors from '../../../styles/theme/colors';
 
-import { Props } from './interface';
+import { ButtonProps } from './interface';
 
 import { Container, Label } from './styles';
 
@@ -14,8 +14,8 @@ import { Container, Label } from './styles';
     ```
 */
 
-const ButtonBase = (props: Props) => {
-  const { onPress, text, variant = 'base', loading } = props;
+const ButtonBase = (props: ButtonProps) => {
+  const { onPress, text, variant = 'def', loading } = props;
 
   const callOnPress = (e: GestureResponderEvent) => {
     if (!loading) {
@@ -26,7 +26,7 @@ const ButtonBase = (props: Props) => {
   return (
     <Container variant={variant} onPress={callOnPress}>
       {loading ? (
-        <ActivityIndicator size="small" color={colors.white} />
+        <ActivityIndicator size='large' color={colors.white} />
       ) : (
         <Label variant={variant}>{text}</Label>
       )}

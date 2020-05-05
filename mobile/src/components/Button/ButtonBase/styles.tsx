@@ -4,14 +4,14 @@ import { StyledProps } from './interface';
 
 export const Container = styled.TouchableOpacity<StyledProps>`
   width: 100%;
-  background-color: ${({ theme, variant }) =>
-    theme.colors.button[variant].backgroundColor};
   height: ${({ theme }) => theme.units.button.height}px;
-  text-align: center;
-  border-radius: ${({ theme }) => theme.units.borderRadius.extraSmall}px;
   justify-content: center;
   align-items: center;
-  box-shadow: 10px 5px 5px black;
+  text-align: center;
+  background-color: ${({ theme, variant }) =>
+    theme.colors.button[variant].backgroundColor};
+  border-radius: ${({ theme }) => theme.units.borderRadius.xSmall}px;
+  elevation: 5;
 `;
 
 export const Label = styled.Text<StyledProps>`
