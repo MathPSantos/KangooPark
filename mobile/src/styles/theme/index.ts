@@ -18,7 +18,7 @@ declare module 'styled-components' {
 export const kangooparkTheme: DefaultTheme = {
   colors: {
     background: {
-      primary: colors.lightGray,
+      primary: colors.yellow,
       secondary: colors.gray,
       tertiary: colors.white,
       error: colors.red,
