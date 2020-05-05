@@ -30,7 +30,7 @@ const Whiteboard: React.FC = () => {
                 alignItems='center'
                 backgroundColor='primary'
             >
-                <Typography text='KANGOO PARK' fontSize='xxlarge' color='primary' />
+                <Typography text='KANGOO PARK' fontSize='xxLarge' color='primary' />
                 <ButtonBase text='Test' loading={loading} onPress={handleButton} />
             </Grid>
         </Grid>

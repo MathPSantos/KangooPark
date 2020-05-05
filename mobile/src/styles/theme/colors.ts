@@ -10,7 +10,6 @@ export default {
   };
   
   export interface ColorPropsBackground {
-    /** Primary is: yellow... */
     primary: string;
     secondary: string;
     tertiary: string;
