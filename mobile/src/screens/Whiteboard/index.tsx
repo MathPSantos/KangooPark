@@ -23,15 +23,18 @@ const Whiteboard: React.FC = () => {
             flex={1}
             flexDirection='row'
             justifyContent='center'
-            backgroundColor='tertiary'
+            backgroundColor='primary'
+            paddingLeft='xSmall'
+            paddingRight='xSmall'
         >
             <Grid
+                flex={1}
                 justifyContent='center'
                 alignItems='center'
-                backgroundColor='primary'
+                backgroundColor='tertiary'
             >
-                <Typography text='KANGOO PARK' fontSize='xxLarge' color='primary' />
-                <ButtonBase text='Test' loading={loading} onPress={handleButton} />
+                <Typography text='KANGOO PARK' fontSize='xxxLarge' color='primary' />
+                <ButtonBase variant='warn' text='Test' loading={loading} onPress={handleButton} />
             </Grid>
         </Grid>
     );
