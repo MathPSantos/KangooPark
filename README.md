@@ -1,8 +1,8 @@
 <p align="center">
-  <img src=".github/KangoParkLogo 2.png" width='200px' />
+  <img src=".github/Logo.png" width='200px' />
 	
   <p align="center">
-  Mobile app to see your bookings and book a new date and time to jump like a kangoroo at Kangoo Trampoline Park!
+  Mobile app to see your bookings and book a new date and time to jump at Kangoo Trampoline Park!
   </p>
   
   <img src=".github/Cover.png" width='1000px' />
