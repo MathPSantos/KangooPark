@@ -6,11 +6,11 @@ import { Custom } from './styles';
 
 /**
     ```
-      Example: <CustomGrid paddingTop="small" />
+      Example: <Grid paddingTop="small" />
     ```
     Unit summary - none: `0`,
     xxs: `4`,
-    extraSmall: `8`,
+    xSmall: `8`,
     small: `16`,
     medium: `24`,
     large: `32`,
