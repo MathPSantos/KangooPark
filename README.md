@@ -27,30 +27,30 @@
  
 # Indice
 
-- :rocket: [Sobre o Projeto](#rocket-sobre-o-projeto)
-- 👨‍💻️ [Tecnogias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
-- 📦️ [Como baixar o projeto](#%EF%B8%8F-como-baixar-o-projeto)
-- 🤔️ [Como você pode contribuir?](#%EF%B8%8F-como-você-pode-contribuir)
+- :rocket: [Project Summary](#rocket-project-summary)
+- 👨‍💻️ [Technologies Used](#%EF%B8%8F-technologies-used)
+- 📦️ [How to install the project](#%EF%B8%8F-how-to-install-the-project)
+- 🤔️ [How can you contribute?](#%EF%B8%8F-how-can-you-contribute)
  
-## :rocket: Sobre o Projeto
+## :rocket: Project Summary
 
-Resumo do projeto
+This Project was made a Kangoo Park company, with the objective that the clients can see and make new bookings in the app in a simple way.
  
-## 👨‍💻️ Tecnogias utilizadas
+## 👨‍💻️ Technologies Used
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+This project was developed using the technologies bellow:
   
 ### Mobile
 
   - [React Native](https://reactnative.dev/)
   - [TypeScript](https://www.typescriptlang.org/)
   
-### Dependências
+### Dependencies
 
   - [Styled Components](https://styled-components.com/)
   - [React Navigation](https://reactnavigation.org/)
 
-### Padronização de código
+### Code patterns
 
   - [ESLint](https://eslint.org/)
 
@@ -60,63 +60,63 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
  
-## 📦️ Como baixar o projeto
+## 📦️ How to install the project
 
-Para clonar o projeto, utilize os comandos:
+To clone the project, use the commands bellow:
 
 ```bash
-  # Clonar o repositório
-  ❯ git clone https://github.com/MathPSantos/nome-repo.git
+  # Clone the repository
+  ❯ git clone https://github.com/MathPSantos/KangooPark.git
 
-  # Entrar no diretório
+  # Enter directory
   ❯ cd nome-repo
 ```
 
 ### Mobile
 
-**Emulando em IOS**
+**Emulate in IOS**
 
 ```bash
-  # Entrar no diretório mobile
+  # Enter mobile directory
   > cd mobile
 
-  # Instalar as dependências
+  # Install the dependencies
   ❯ yarn
   
-  # Instalar as dependências IOS
+  # Install the IOS dependencies
   ❯ npx pod-install ios
 
-  # Instalar e Iniciar o projeto
+  # Install and start the project
   ❯ yarn ios
 ```
 
-**Emulando em Android**
+**Emulate in Android**
 
 ```bash
-  # Entrar no diretório mobile
+  # Enter mobile directory
   > cd mobile
 
-  # Instalar as dependências
+  # Install the dependencies
   ❯ yarn
   
-  # Instalar e Iniciar o projeto
+  # Install and start the project
   ❯ yarn android
 ```
 
 ---
  
-## 🤔️ Como você pode contribuir?
+## 🤔️ How can you contribute?
 
-1. Faça o `fork` deste repositório
-2. Crie uma branch com sua feature:
-   - `$ git checkout -b minha_feature`
-3. Confirme sua branch:
-   - `$ git commit -m "feature: Meu novo recurso"`
-4. Envie sua branch:
-   - `$ git push origin minha_feature`
+1. `fork` this repository
+2. Create a branch with your feature:
+   - `$ git checkout -b my_feature`
+3. Commit your branch:
+   - `$ git commit -m "feature: My new feature"`
+4. Submit your branch:
+   - `$ git push origin my_feature`
 
 ---
  
 <h4 align="center">
-  Feito com ❤️ por Matheus Pires Santos <a href="mailto:matheus.psantos2016@gmail.com">Entre em contato!</a>
+  Made with ❤️ by Matheus Pires Santos <a href="mailto:matheus.psantos2016@gmail.com">Get in touch!</a>
 </h4>
