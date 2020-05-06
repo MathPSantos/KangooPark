@@ -15,12 +15,12 @@ After cloning this repo
 ## Mobile
 ### Android
  - Start **Android** Emulator
- - Open the **mobile** folder
+ - Open the **mobile** folder and run ```yarn``` to install packages
  - Run ```yarn android``` and have fun!
 
 ### IOS
  - Start **IOS** Emulator
- - Open the **mobile** folder
+ - Open the **mobile** folder and run ```yarn``` to install packages
  - Run ```npx pod-install ios```
  - Run ```yarn ios``` and have fun!
 	
