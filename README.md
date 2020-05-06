@@ -25,7 +25,7 @@
 </p>
 
  
-# Indice
+# Index
 
 - :rocket: [Project Summary](#rocket-project-summary)
 - 👨‍💻️ [Technologies Used](#%EF%B8%8F-technologies-used)
