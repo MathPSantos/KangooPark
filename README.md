@@ -69,7 +69,7 @@ To clone the project, use the commands bellow:
   ❯ git clone https://github.com/MathPSantos/KangooPark.git
 
   # Enter directory
-  ❯ cd nome-repo
+  ❯ cd KangooPark
 ```
 
 ### Mobile
