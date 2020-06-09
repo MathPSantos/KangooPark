@@ -31,11 +31,13 @@
 - 👨‍💻️ [Technologies Used](#%EF%B8%8F-technologies-used)
 - 📦️ [How to install the project](#%EF%B8%8F-how-to-install-the-project)
 - 🤔️ [How can you contribute?](#%EF%B8%8F-how-can-you-contribute)
- 
+
+---
 ## :rocket: Project Summary
 
 This Project was made a Kangoo Park company, with the objective that the clients can see and make new bookings in the app in a simple way.
- 
+
+---
 ## 👨‍💻️ Technologies Used
 
 This project was developed using the technologies bellow:
