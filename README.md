@@ -120,5 +120,5 @@ To clone the project, use the commands bellow:
 ---
  
 <h4 align="center">
-  Made with ❤️ by Matheus Pires Santos <a href="mailto:matheus.psantos2016@gmail.com">Get in touch!</a>
+  Made with ❤️ by Matheus Pires Santos! <a href="https://www.linkedin.com/in/mathpsantos/">Get in touch</a> or send a email to matheus.psantos2016@gmail.com!
 </h4>
